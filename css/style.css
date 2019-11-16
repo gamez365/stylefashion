@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */@-webkit-viewport{width:device-width}@-moz-viewport{width:device-width}@-ms-viewport{width:device-width}@-o-viewport{width:device-width}@viewport{width:device-width}body{font-family:'Roboto', sans-serif;background-color:#00435e}.heading{text-align:center;margin:30px auto;color:white}.heading h1{margin:0 0 15px 0;padding:0;font-weight:900;text-transform:uppercase}footer.footer{text-align:center;padding:30px 0}footer.footer p.text-muted{color:white}a.game{text-decoration:none;color:black;background-color:white;display:block;padding:1px;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;margin:5px auto;text-align:center;border:2px solid white}a.game img{width:250px;max-width:100%}a.game p.title{font-weight:400;margin:1px 0 0 0;font-size:24px}a.game:hover{background-color:#eee}nav.navbar.navbar-default{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0}
+/*# sourceMappingURL=style.css.map */
+a.game img {
+  display: ;
+ /* max-width:200px;
+  max-height:290px;*/
+  width: auto;
+  height: auto;
+  align: center;
+}
+
+.bgterms{
+  background-color:#fff;
+  border-radius: 10px;
+}
+
+.contact{
+  background-color:#fff;
+  border-radius: 10px;
+}
+
+#contact_form{
+  padding:20px;
+}
+
+#myInput {
+  background-image: url('../img/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+{
+	.pages:after {
+    counter-increment: page;
+    content:"Page " counter(page);
+    left: 0; 
+    top: 100%;
+    white-space: nowrap; 
+    z-index: 20px;
+    -moz-border-radius: 5px; 
+    -moz-box-shadow: 0px 0px 4px #222;  
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+  }
